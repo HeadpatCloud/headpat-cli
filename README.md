@@ -26,6 +26,8 @@ Then:
 headpat login
 ```
 
+It opens the panel in your browser; approve the login there and pick its permissions, and the CLI stores a new API key for this machine. `headpat update` installs newer releases later.
+
 To install by hand, download the file for your platform from the latest `vX.Y.Z` release, rename it to `headpat` (`headpat.exe` on Windows) and put it on your `PATH`:
 
 | Platform | File |
