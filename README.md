@@ -24,7 +24,7 @@ Every command takes `--json`. `headpat --help` lists the commands; anything else
 
 ## Terraform provider
 
-Releases tagged `terraform-vX.Y.Z` carry registry-shaped zips for Linux, macOS and Windows plus `SHA256SUMS`. The provider is not on the public Terraform registry yet, so install it with a filesystem mirror or a dev override: see the guide at https://headpat.space/guides.
+Releases tagged `terraform-vX.Y.Z` carry registry-shaped zips for Linux, macOS and Windows plus `SHA256SUMS`. The provider is not on the public Terraform registry yet, so install it with a filesystem mirror or a dev override: see the guide at https://headpat.space/guides. Resource and data source reference: [terraform/docs](terraform/docs); a complete example: [terraform/examples/main.tf](terraform/examples/main.tf).
 
 ## Source
 
